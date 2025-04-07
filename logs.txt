@@ -1,0 +1,16 @@
+niko@Nikola:~/SI_2025_lab1_233150$ git log --all --oneline --graph
+*   001e1ae (HEAD -> master, origin/master) Merge branch '1-remove-a-task-by-name'
+|\
+| * e06717c (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeATaskByName
+* |   b5373ef Merge pull request #11 from nikkoko321/4-sort-tasks-by-priority
+|\ \
+| * | b390baf (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Implement sortTasksByPriority
+| |/
+* |   d991675 Merge pull request #10 from nikkoko321/5-filter-tasks-by-category
+|\ \
+| |/
+|/|
+| * 4c73bfe (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Implement filterTasksByCategory
+|/
+* 3eed5f9 Add starter code
+* dcc96c8 Initial commit

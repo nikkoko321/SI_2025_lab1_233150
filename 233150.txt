@@ -1,0 +1,47 @@
+mkdir SI_2025_lab1_233150
+cd SI_2025_lab1_233150
+git init
+git remote add origin https://github.com/nikkoko321/SI_2025_lab1_233150.git
+
+
+6.
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+
+7.
+nano SI2025Lab1Main.java
+git add .
+git commit -m "Add starter code"
+
+8. 
+git push -u origin master
+
+------
+
+16.1
+git add .
+git commit -m "Remove a task by name DONE"
+
+16.2
+git add .
+git commit -m "Filter tasks by category DONE"
+
+16.3
+git add .
+git commit -m "Sort tasks by priority DONE"
+
+17.
+git push origin 1-remove-a-task-by-name
+
+22.
+git checkout master
+git pull origin master
+git merge 1-remove-a-task-by-name
+
+23.
+git pull origin 1-remove-a-task-by-name
+git push -u origin master
+
+
+
