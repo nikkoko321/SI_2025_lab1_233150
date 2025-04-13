@@ -71,4 +71,16 @@ git commit -m "Final commit"
 26. Синхронизација со remote репозиториумот
 git push
 
+-------
+
+28. Клонирање на remote репозиториум на мојот локален
+git clone https://github.com/nikkoko321/SI_2025_lab1_151020.git
+
+29. Креирање на 233150.txt датотека
+nano 233150.txt
+git add .
+git commit -m "Add file" 
+
+30. Синхронизација со remote репозиториумот
+git push -u origin master
 
