@@ -60,8 +60,15 @@ git pull origin master
 git merge 1-remove-a-task-by-name
 
 23. Синхронизација со remote репозиториумот
-git pull origin 1-remove-a-task-by-name
 git push -u origin master
 
+25. Креаирање на logs.txt и 233150.txt и вршење на нов комит
+nano logs.txt
+nano 233150.txt
+git add .
+git commit -m "Final commit"
+
+26. Синхронизација со remote репозиториумот
+git push
 
 
