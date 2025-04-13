@@ -1,45 +1,65 @@
+//Инизијализација на локален директориум и спојување со remote repo.
 mkdir SI_2025_lab1_233150
 cd SI_2025_lab1_233150
 git init
 git remote add origin https://github.com/nikkoko321/SI_2025_lab1_233150.git
 
 
-6.
+6. Додавање на README и вршење на комит
 nano README.md
 git add README.md
 git commit -m "Initial commit"
 
-7.
+7. Креирање на датотека за јава кодот и вршење на комит
 nano SI2025Lab1Main.java
 git add .
 git commit -m "Add starter code"
 
-8. 
+8. Синхронизираме со remote репозиториумот
 git push -u origin master
 
 ------
 
-16.1
+13. Земање на remote гранките на нашиот репозиториум
+git fetch origin
+git checkout 1-remove-a-task-by-name
+git checkout 4-sort-tasks-by-priority
+git checkout 5-filter-tasks-by-category
+
+16.1. Додавање на функција и вршење на комит
+git checkout 1-remove-a-task-by-name
 git add .
 git commit -m "Remove a task by name DONE"
 
-16.2
+17.1. Синхронизација на локалната гранка со remote гранката
+git push origin 1-remove-a-task-by-name
+
+16.2. Додавање на функција и вршење на комит
+git checkout 4-sort-tasks-by-priority
 git add .
 git commit -m "Filter tasks by category DONE"
 
-16.3
+17.2. Синхронизација на локалната гранка со remote гранката
+git push origin 4-sort-tasks-by-priority
+
+16.3. Додавање на функција и вршење на комит
+git checkout 5-filter-tasks-by-category
 git add .
 git commit -m "Sort tasks by priority DONE"
 
-17.
-git push origin 1-remove-a-task-by-name
+17.3. Синхронизација на локалната гранка со remote гранката
+git push origin 5-filter-tasks-by-category
 
-22.
+20-22.
+Во ни едно спојување немаше конфликт, бидејќи секоја функција на јава кодот е на различен ред, па затоа нема да има конфликт.
+Сите спојувања се вршат по стратегина Recursive.
+
+22. Спојување на локалната гранка со мастер гранката
 git checkout master
 git pull origin master
 git merge 1-remove-a-task-by-name
 
-23.
+23. Синхронизација со remote репозиториумот
 git pull origin 1-remove-a-task-by-name
 git push -u origin master
 
